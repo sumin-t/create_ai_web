@@ -14,7 +14,7 @@ if api_key:
     st.title("DALL-E 3 이미지 생성기")
 
     # 사용자 입력 받기
-    prompt = st.text_input("귀여운 이미지 생성 프론트를 입력하세요", "a white siamese cat")
+    prompt = st.text_input("귀여운 이미지 생성 프론트를 입력하세요", "earth")
 
     # 물건에 팔다리를 추가하는 옵션 체크박스
     add_limbs = st.checkbox("물건에 팔다리를 추가하기")
