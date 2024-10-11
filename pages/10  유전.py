@@ -34,7 +34,7 @@ if api_key:
 
     if generate_button and all([name, gender, eye_type, earlobe_type, forehead_type, hair_type, dimples]):
         # 이미지 생성 프롬프트
-        prompt = f"성인의 사실적인 얼굴 사진으로, 성별: {gender}, 눈 형질: {eye_type}, 귀 형질: {earlobe_type}, 이마선: {forehead_type}, 머리카락 형질: {hair_type}, 보조개: {dimples}을 포함한 타로 카드 디자인. 카드 하단에 '{name}'이라는 이름이 크게 표시됩니다."
+        prompt = f"성인의 현실적인 얼굴 사진으로, 성별: {gender}, 눈 형질: {eye_type}, 귀 형질: {earlobe_type}, 이마선: {forehead_type}, 머리카락 형질: {hair_type}, 보조개: {dimples}을 포함한 증명사진 디자인. 카드 하단에 '{name}'이라는 이름이 크게 표시됩니다."
 
         with st.spinner("가상의 부모를 생성중입니다. 잠시만 기다려주세요..."):
             try:
